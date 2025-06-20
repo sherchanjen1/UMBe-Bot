@@ -4,25 +4,28 @@ AI-Powered Teaching Assistant for UMass Boston
 UMBe-Bot is a Streamlit-based chatbot designed to assist students and faculty at the University of Massachusetts Boston by providing course-specific support. This pilot version is tailored for the interdisciplinary course "AI for All", which includes multiple instructor modules. Users can select an instructor and ask questions specific to that module's materials. The bot responds only from the indexed course PDFs and does not rely on external web content.
 
 💡 Features:
-Instructor-based module selection
 
-Indexed PDF course materials using LangChain + ChromaDB
+-Instructor-based module selection
 
-Question answering powered by OpenAI embeddings and LLMs
+-Indexed PDF course materials using LangChain + ChromaDB
 
-UI styled like ChatGPT with persistent conversation history
+-Question answering powered by OpenAI embeddings and LLMs
 
-Secure .env-based API key integration
+-UI styled like ChatGPT with persistent conversation history
+
+-Secure .env-based API key integration
+
 
 🚀 Technologies Used:
-Python
 
-Streamlit
+-Python
 
-LangChain
+-Streamlit
 
-OpenAI API
+-LangChain
 
-Chroma Vector DB
+-OpenAI API
 
-PyPDFLoader
+-Chroma Vector DB
+
+-PyPDFLoader
